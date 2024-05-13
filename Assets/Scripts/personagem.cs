@@ -5,6 +5,7 @@ using UnityEngine;
 public class personagem : MonoBehaviour
 {
     Rigidbody2D fisica;
+    private float velocidade = 3f;
     private void Awake()
     {
         this.fisica = GetComponent<Rigidbody2D>();
