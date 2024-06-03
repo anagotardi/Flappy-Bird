@@ -16,11 +16,13 @@ public class personagem : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+
+            Debug.Log("Clicou");
             this.Impulsionar();
         }
     }
     void Impulsionar()
     {
-        this.fisica.AddForce(Vector2.up * 3, ForceMode2D.Impulse);
+        this.fisica.AddForce(Vector2.up * velocidade, ForceMode2D.Impulse);
     }
 }
