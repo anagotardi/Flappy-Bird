@@ -17,7 +17,7 @@ public class personagem : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
 
-            Debug.Log("Clicou");
+      
             this.Impulsionar();
         }
     }
