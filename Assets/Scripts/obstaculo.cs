@@ -11,8 +11,8 @@ public class Obstaculo : MonoBehaviour
     [SerializeField]
     private float variacaoposicaoY;
     private Vector3 posicaoPassaro;
-    private uiControler controladorUI;
-    private uiControler controladorUI;
+    private UIControler controladorUI;
+
 
     private bool pontuei;
     private void Awake()
@@ -23,7 +23,7 @@ public class Obstaculo : MonoBehaviour
     private void Start()
     {
         this.posicaoPassaro = GameObject.FindObjectOfType<personagem>().transform.position;
-        this.controladorUI = GameObject.FindObjectOfType<UIDocument>();
+        this.controladorUI = GameObject.FindObjectOfType<UIControler>();
     }
 
     // Update is called once per frame

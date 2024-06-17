@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class uiControler : MonoBehaviour
+public class UIControler : MonoBehaviour
 {
     private int pontos;
     private Label textoPontuacao;
@@ -20,10 +20,6 @@ public class uiControler : MonoBehaviour
         textoPontuacao = root.Q<Label>("pontos");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-   
-
-    }
 }
+
+
